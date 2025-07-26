@@ -5,6 +5,7 @@ from sqlalchemy import (
 from sqlalchemy.orm import relationship, sessionmaker, Session
 from sqlalchemy.ext.declarative import declarative_base
 from datetime import datetime
+import pandas as pd
 
 # ---------- DATABASE CONNECTION ----------
 DATABASE_URL = "postgresql://postgres:yourpassword@localhost:5432/ecommerce_ai"
